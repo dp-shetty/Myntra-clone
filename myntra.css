@@ -121,17 +121,17 @@
     .category-items{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        /* justify-content: space-around; */
     }
     .category-items img{
         width: 220px;
     }
     .banner_person{
-        width: 720px;
-        height: 427.5px;
+        width: 100%;
+        /* height: 427.5px; */
     }
     .banner_offer{
-        width: 720px;
+        width: 100%;
         height: 150px;
     }
     .banner_download{
@@ -166,6 +166,9 @@
         color: #94969f;
         text-align: end;
         padding: 15px;
+    }
+    .c1{
+        margin-left: 12px;
     }
 }
 
