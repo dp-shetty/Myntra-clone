@@ -1,0 +1,170 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+@media screen and (max-width:1440px) {
+
+    /* Below is the properties for haeder includes navigation 🔻 */
+
+    body{
+        font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    header{
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        background-color: white;
+        box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    }
+    .action
+    {
+        margin-right: 4%;
+    }
+    .logo{
+        width: 53px;height: 36px;
+    }
+    .logo-container{
+        margin-left: 4%;
+    }
+    .navigation{
+        display: flex;
+        min-width: 519px;
+        justify-content: space-evenly;
+    }
+    .navigation a{
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: .3px;
+        color: #282c3f;
+        padding: 28px 0;
+        border-bottom: 5px solid transparent;
+        transition: all 0.4s;
+    }
+    .navigation a:hover{
+        border-bottom: 3px solid #f54e77;
+    }
+    .navigation a sup{
+        font-size: 10px;
+        font-weight: 600;
+        /* font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal; */
+        /* text-align: left; */
+        color: #ff3f6c;
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        min-width: 200px;
+        height: 40px;
+        width: 30%;
+       
+    }
+    .search_icon{
+        box-sizing:content-box;
+        height: 21px;
+        padding: 10px;
+        font-weight: 300;
+       
+        color: #282c3f;
+        background-color: #f5f5f6;
+    }
+    .search-input{
+        background-color: #f5f5f6;
+        color: #696e79;
+        flex-grow: 1;
+        height: 40px;
+        /* border: 1px solid #f5f5f6; */
+        border:0;
+        border-radius: 0px 4px 4px 0;
+    }
+    .search-input:focus{
+        background-color: #fff;
+        border-color: #eaeaec;
+    }
+    .action{
+        display: flex;
+        min-width: 200px;
+        justify-content:space-evenly;
+    }
+    .action_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* here ends properties for header 🔚 */
+
+    /* Below is the properties for Main 🔻 */
+    .banner .banner_image{
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .banner2{
+        display: flex;
+    }
+    .banner2 .banner_image1{
+        width: 50%;
+        margin: 1px 0;
+    }
+    .banner2 .banner_image2{
+        width: 50%;
+        margin: 1px 0;
+    }
+    .category-items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .category-items img{
+        width: 220px;
+    }
+    .banner_person{
+        width: 720px;
+        height: 427.5px;
+    }
+    .banner_offer{
+        width: 720px;
+        height: 150px;
+    }
+    .banner_download{
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .footer_container{
+        background-color: #fafbfc;
+        padding: 30px 0 40px 0;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+    }
+    .footer_column{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_column a{
+        text-decoration: none;
+        color: #696b79;
+        display: block;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .footer_column h3{
+        text-decoration: none;
+        color: #282c3f;
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .copyright{
+        color: #94969f;
+        text-align: end;
+        padding: 15px;
+    }
+}
