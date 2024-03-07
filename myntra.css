@@ -120,18 +120,23 @@
     .category-items{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        /* justify-content: space-around; */
+    }
+    .c1{
+        margin-left: 12px;
     }
     .category-items img{
         width: 220px;
     }
     .banner_person{
-        width: 720px;
-        height: 427.5px;
+        /* width: 720px;
+        height: 427.5px; */
+        width: 100%;
     }
     .banner_offer{
-        width: 720px;
-        height: 150px;
+        /* width: 720px;
+        height: 150px; */
+        width: 100%;
     }
     .banner_download{
         width: 100%;
